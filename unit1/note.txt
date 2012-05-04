@@ -1,0 +1,23 @@
+print max([3,4,-5,9], key=abs)
+
+-5
+
+it is useful to put key after list, according to it applied to all.
+we will have max(hands, key=hand_rank)
+
+compare tuples
+(7,9,6) > (7,3,8)
+same as the string comparison hello < help
+
+straigth flush (8, 11), major rank 8  11 stands for Jack, the biggest one
+four kind  (7, 14, 12), major rank 7, 4 ace, one queen
+full house (6, 8, 13), major rank 6, three 8, and pair K
+flush (5, [10,8,7,5,3]), 10,8,7,5, 3, should look all the cards
+straight (4, 11), the biggest is jack
+three sevens (3, 7, [7,7,7,5,2]), complete list of the cards
+two pairs, (2, 11, 3, [13,11,11,3,3]) jack and three
+one pair, (1, 2, [11, 6, 3, 2,3])
+nothing!!! (0, [7,5,4, 3, 2) cards from highest to lowest
+
+clever lookup table to do the card_ranks
+index value instead of card value
