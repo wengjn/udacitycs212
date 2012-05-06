@@ -1,0 +1,31 @@
+Zebra puzzle
+do the assignment, each house with properties(nation, color, pet, drink,
+        smoke)
+
+funny picture about solution time:
+million, billion, trillion
+
+itertools library has permutation module could be used
+
+Need to understand what 'List Comprehensions' are?
+[s for r,s in cards if r in 'JQK']...we can have more 'for' 'if' after that
+as long as a 'for' comes first
+
+Generator Expression:
+g=(sq(x) for x in range(10) if x%2==0)
+
+Timing --- measurement
+timecall()
+    time.clock()
+
+def something(fn, *args):
+  fn(*args)
+something(f, 1,2,3)  tuple (1,2,3) into args
+zip and unzip relation
+
+aspect orient programming
+correct, efficient, debug
+
+
+
+
