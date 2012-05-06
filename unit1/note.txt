@@ -21,3 +21,6 @@ nothing!!! (0, [7,5,4, 3, 2) cards from highest to lowest
 
 clever lookup table to do the card_ranks
 index value instead of card value
+
+uppercase all the names from udacity_tas
+uppercase_tas = [name.upper() for name in udacity_tas]

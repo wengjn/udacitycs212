@@ -1,0 +1,30 @@
+set: a set is an ordered collection of elements with no duplicates.
+unordered, no duplicates!!!
+
+A-B  in A but not in B
+A|B  A or B
+A&B  A and B
+A^B  without the common area
+
+
+List: count, sort, reverse
+list.count(r): return number of occurences of x in list
+list.sort(): sort the list in place
+list.reverse(): reverse the elements of the list in place
+
+this sort doesn't create another new list, it is in place, change the 
+original one
+b = a.sort()
+print out b would be None
+same as reverse: in place, remember it is in place
+
+
+Generators:
+1. how do we use it???
+with yield, we create generator object func
+2. what is generator expression/function/objects???
+3.when and why do we use generators???
+whenever you call the func, you create a new generator object, if you want 
+to continue use that object, you have to assign it to others
+if next(gen(11)) be 0, then
+next(gen(11)) would also be 0
