@@ -27,5 +27,32 @@ aspect orient programming
 correct, efficient, debug
 
 
+~~~~~~~~~~~~~~~~~~~
+Cryptarithmetic
+
+eval('2+2') = 4 # evaluate a string expression
+
+Regular Expression:
+re.search(r'\b0[0-9]', f) to be not True
+\b is boundary, starting with 0 and later any letter
+eval('012') = 10, based on 8, Octal number, start from 0
+
+python build a time machine
+from __future__ import division
+it is called future import, since:
+in Python2.x: 3/2 we get 1 and 1/2 we get 0, the designers said when you do
+the intergers division, you probablly want an integer result
+in Python3: 3/2 we get 1.5, and 1/2 we get 0.5, the designers thought the 
+previous design is confusing
+if you want python3 feature in python2.x, you need to import __future__
+
+print out a table on time and the function
+ python -m cProfile cryptarithmetic.py
+so we can know how to improve the program 
+
+lambda function
+f = lambda Y,M,E,U,O:(1*U+10*O+100*Y)==(1*E+10*M)**2
+
+re.split()
 
 
